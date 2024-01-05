@@ -96,3 +96,38 @@ ul {
 .showcase .btn {
     margin-top: 20px;
 }
+
+/* HomePage Cards 1 */
+
+.home-cards-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.home-cards-1 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards-1 h3 {
+    margin-bottom: 5px;
+}
+
+.home-cards-1 img:hover {
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.home-cards-1 a{ 
+    display: inline-block;
+    padding-top: 10px;
+    color: #5cced6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home-cards-1 a:hover i{
+    margin-left: 7px;
+}
+
