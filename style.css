@@ -80,7 +80,7 @@ ul {
     width: 100%;
     height: 450px;
     /* background: url(./img/showcase.jpg) no-repeat center center/cover; */
-    background-image: url(./img/showcase.jpg) ;
+    background-image: url('./img/showcase.jpg') ;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -107,6 +107,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    margin-bottom: 40px;
 }
 
 .home-cards-1 img{
@@ -135,3 +136,23 @@ ul {
     margin-left: 7px;
 }
 
+/* Xbox */
+
+.xbox {
+    width: 100%;
+    height: 350px;
+    /* background: url('./img/xbox.png') no-repeat center top center/cover;  */
+    background-image: url('./img/xbox.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.xbox .content {
+    width: 40%;
+    padding: 50px 0 0 10px;
+}
+
+.xbox p {
+    margin: 10px 0 20px;
+}
