@@ -75,8 +75,13 @@ ul {
 }
 
 .dark {
-    
+    color: #fff;
 } 
+
+.dark .btn {
+    color: #333;
+    background: #f4f4f4;
+}
 
 /* Showcase */
 
@@ -154,10 +159,10 @@ ul {
 
 .xbox .content {
     width: 40%;
-    padding: 50px 0 0 10px;
+    padding: 50px 0 0 30px;
 }
 
-.xbox p {
+.xbox p, .carbon p {
     margin: 10px 0 20px;
 }
 
