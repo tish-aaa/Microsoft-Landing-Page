@@ -333,4 +333,32 @@ ul {
     .links .links-inner {
         grid-template-columns: 1fr;
     }
+    .footer-inner{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: start;
+        gap: 0;
+        max-width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .footer ul {
+        display: grid;
+        grid: unset;
+        flex-direction: row;
+        align-items: flex-start;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto auto;
+    }
+    .footer li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .footer div {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: start;
+    }
+    
+    
   }
