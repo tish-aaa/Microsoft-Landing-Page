@@ -270,6 +270,13 @@ ul {
   
   @media(max-width: 700px) {
 
+    .main-btn {
+        display: block;
+    }
+    .main-btn:hover {
+        opacity: 0.6;
+    }
+    
     .main-nav ul .main-menu{
         display: block;
         position: absolute;
